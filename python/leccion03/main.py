@@ -28,10 +28,20 @@ else:
     print ("Fin del ciclo for")"""
 
 #Palabra reservada break
-for letra in "Alemania":
+"""for letra in "Alemania":
     if letra == "a":
         print("letra encontrada: ", letra)
         break
 else:
-    print("Fin del ciclo for")
+    print("Fin del ciclo for")"""
+
+#palabra reservada continue
+for i in range(6):
+    if i % 2 == 0:
+        print(f"valor:", i)
+
+for i in range(6):
+    if i % 2 != 0:
+        continue
+    print(f"valor:", i)
 
