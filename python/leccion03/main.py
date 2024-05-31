@@ -19,3 +19,19 @@ contador = 5
 while contador >= minimo:
     print(contador)
     contador -=1"""
+
+#ciclo for
+"""cadena = "Hello"
+for letra in cadena:
+    print(letra)
+else:
+    print ("Fin del ciclo for")"""
+
+#Palabra reservada break
+for letra in "Alemania":
+    if letra == "a":
+        print("letra encontrada: ", letra)
+        break
+else:
+    print("Fin del ciclo for")
+
