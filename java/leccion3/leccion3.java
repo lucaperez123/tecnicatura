@@ -256,7 +256,7 @@ public class leccion3 {
     System.out.println("varL = " + varL); */
 
     //operadores de igualdad y relacionales
-    var aNum =6;
+    /*var aNum =6;
     var bNum = 4;
     var cNum = (aNum == bNum);
     System.out.println("cNum = " + cNum);
@@ -287,8 +287,39 @@ public class leccion3 {
         System.out.println("Eres mayor de edad");
     }else{
         System.out.println("Eres menor de edad");
+    } */
+
+    //operadores condicionales
+
+    var valorA = 7;
+    var valorMinimo = 0; // rango del 0 al 10
+    var valorMaximo = 10;
+
+    var respuesta = valorA >= 0 && valorA <=10;
+
+    if (respuesta == true){
+        System.out.println("Dentro del rango");
+    }else{
+        System.out.println("Fuera del rango");
     }
 
+    var vacaciones = false;
+    var diaLibre = true;
+    if (vacaciones || diaLibre){
+        System.out.println("Padre puede asistir al juego del hijo");
+    }else{
+        System.out.println("El padre esta ocupado");
     }
+
+    //operador ternario
+    var resultadoT = (5>4) ? "Verdadero" : "Falso";
+    System.out.println("resultadoT = " + resultadoT);
+
+    //ejercicio par impar
+    var numeroT = 7;
+    resultadoT = (numeroT % 2 == 0) ? "Es par" : "Es impar";
+    System.out.println("resultadoT = " + resultadoT);
+    }
+
 
 }
