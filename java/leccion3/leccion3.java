@@ -177,7 +177,7 @@ public class leccion3 {
         System.out.println("Es un numero impar");*/
     
     
-
+    /* 
     int varNum1 = 1 , varNum2 = 4;
     int varNum3 = varNum1 + 6 - varNum2; // una operacion
     System.out.println("varNUm3 = "  + varNum3);
@@ -214,8 +214,27 @@ public class leccion3 {
     System.out.println("varNum3 =" + varNum3);
 
     varNum1 %= 6;
-    System.out.println("varNum1 = " + varNum1);
+    System.out.println("varNum1 = " + varNum1);*/
 
+    //operadores unarios : cambio de signo
+    var varA = 7;
+    var varB = -varA;
+    System.out.println("varA = " + varA);
+    System.out.println("varB = " + varB); // EL RESULTADO SERA UN NUMERO NEGATIVO
+
+    //operador de negacion
+    var varC = true; // Esta literal por default en java es de tipo boolean
+    var varD = !varC; // Aqui esta invirtiendo el valor
+    System.out.println("varC = "+ varC);
+    System.out.println("varD = " + varD);
+
+
+    //opereadores unarios de incremento : preincremento
+    var varE = 9; //  se va a modificar su valor
+    var varF = ++varE; // simbolo antes de la variable
+    // primero se incrementa la variable y despues se usa
+    System.out.println("varE = " + varE);// se incrementa la unidad
+    System.out.println("varF = " + varF);// va a sumar uno
 
     }
 
