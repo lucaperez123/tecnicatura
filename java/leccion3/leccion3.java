@@ -272,6 +272,23 @@ public class leccion3 {
     var fVar = cadenaA.equals(cadenaB);
     System.out.println("fVar = " + fVar);
 
+    var gVar = aNum >= bNum; // operadores de comparacion > >= < <= == !=
+    System.out.println("gVar = " + gVar);
+
+    if (aNum % 2 == 0) {
+        System.out.println("Es un numero par");
+    }else{
+        System.out.println("Es un numero impar");
+    }
+
+    var edad = 30;
+    var adulto = 18;
+    if(edad>=adulto){
+        System.out.println("Eres mayor de edad");
+    }else{
+        System.out.println("Eres menor de edad");
+    }
+
     }
 
 }
