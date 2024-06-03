@@ -216,7 +216,8 @@ public class leccion3 {
     varNum1 %= 6;
     System.out.println("varNum1 = " + varNum1);*/
 
-    //operadores unarios : cambio de signo
+    /*
+    //operadores unarios  cambio de signo
     var varA = 7;
     var varB = -varA;
     System.out.println("varA = " + varA);
@@ -252,7 +253,24 @@ public class leccion3 {
     var varK = 8;
     var varL = varK--; // primero el valor de la variable , luego queda el decremento
     System.out.println("varK = " + varK); // aqui va a decrementar en 1
-    System.out.println("varL = " + varL);
+    System.out.println("varL = " + varL); */
+
+    //operadores de igualdad y relacionales
+    var aNum =6;
+    var bNum = 4;
+    var cNum = (aNum == bNum);
+    System.out.println("cNum = " + cNum);
+
+    var dNum = aNum != bNum;
+    System.out.println("dNum = " + dNum);
+
+    var cadenaA = "Hello";
+    var cadenaB = "Bye bye";
+    var cVar = cadenaA == cadenaB ;
+    System.out.println("cVar = " + cVar);
+
+    var fVar = cadenaA.equals(cadenaB);
+    System.out.println("fVar = " + fVar);
 
     }
 
