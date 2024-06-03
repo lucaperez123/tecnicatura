@@ -290,7 +290,7 @@ public class leccion3 {
     } */
 
     //operadores condicionales
-
+    /*
     var valorA = 7;
     var valorMinimo = 0; // rango del 0 al 10
     var valorMaximo = 10;
@@ -318,7 +318,22 @@ public class leccion3 {
     //ejercicio par impar
     var numeroT = 7;
     resultadoT = (numeroT % 2 == 0) ? "Es par" : "Es impar";
-    System.out.println("resultadoT = " + resultadoT);
+    System.out.println("resultadoT = " + resultadoT);*/
+
+    var x = 5;
+    var y = 10;
+    var z = ++x + y --;
+    System.out.println("x = " + x);// 6
+    System.out.println("y = " + y);// 9
+    System.out.println("z = " + z);// 16
+
+
+    var solucionAritmetica = 4 + 5 * 6 / 3; // 4+((5*6)/3) = 30 / 3 = 10 + 4 = 14
+    System.out.println("solucionAritmetica = " + solucionAritmetica);
+
+    solucionAritmetica = (4 + 5) * 6 / 3; // 9 * 6 / 3 = 54 / 3 = 18
+    System.out.println("solucionAritmetica = " + solucionAritmetica);
+    
     }
 
 
