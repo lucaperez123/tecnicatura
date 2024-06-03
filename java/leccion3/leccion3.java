@@ -236,6 +236,24 @@ public class leccion3 {
     System.out.println("varE = " + varE);// se incrementa la unidad
     System.out.println("varF = " + varF);// va a sumar uno
 
+    //posincremento (el ismbolo va despues de la variable)
+    var varG = 3;
+    var varH = varG++; // PRIMERO EL VALOR DE LA VARIABLE , LUEGO EL INCREMENTO
+    System.out.println("varG = " + varG); // el incremento nomas afecta a la variable g 
+    System.out.println("varH = " + varH);
+
+    // operadores unarios de decremento
+    var varI = 4;
+    var varJ = --varI;
+    System.out.println("varI = " + varI); // la variable ya esta con decremento
+    System.out.println("varJ = " + varJ);
+
+    //postdecremento
+    var varK = 8;
+    var varL = varK--; // primero el valor de la variable , luego queda el decremento
+    System.out.println("varK = " + varK); // aqui va a decrementar en 1
+    System.out.println("varL = " + varL);
+
     }
 
 }
