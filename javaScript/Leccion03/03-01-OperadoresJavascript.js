@@ -43,3 +43,26 @@ console.log(resultado2);
 let numero = 9;
 let resultado3 = (numero % 2 == 0) ? "Es par" : "Es impar";
 console.log(resultado3);
+
+//convertir de string a numero
+let miNUmero = "10"; // es una cadena
+console.log(typeof miNUmero);
+let edad2 = Number(miNUmero);
+console.log(typeof edad2);
+
+if(isNaN(edad2)){
+    console.log("No es un numero");
+}
+
+else{
+    if( edad2 >= 18){
+        console.log("puede votar");
+    }
+    else{
+        console.log("muy joven para votar");
+}   }
+
+let resultado4 = edad2 >= 18 ? "puede votar" : "muy joven para votar";
+console.log(resultado4);
+
+//funcion isNaN
