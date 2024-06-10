@@ -27,3 +27,19 @@ if(dentroRango >= valMin && dentroRango <= valMax){
 else{
     console.log("No esta dentro del rango establecido");
 }
+
+// ejercicio : el padre puede asistir al juego de su hijo
+let vacaciones = false , diaDescanso = false;
+if(vacaciones || diaDescanso){
+    console.log("El padre puede asistir al juego de su hijo");
+}
+else{
+    console.log("El padre no puede asistir al juego de su hijo");
+}
+
+//operador ternario
+let resultado2 = (3 > 2) ? "verdadero" : "falso";
+console.log(resultado2);
+let numero = 9;
+let resultado3 = (numero % 2 == 0) ? "Es par" : "Es impar";
+console.log(resultado3);
