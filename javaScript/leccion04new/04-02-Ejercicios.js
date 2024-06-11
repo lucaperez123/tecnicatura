@@ -28,6 +28,7 @@ de 20 a 23 nos saluda : good night
 trabajemos con 24 horas
 */
 
+/*
 let horaDia = 9;
 let mensaje;
 if (horaDia >= 6 && horaDia <= 11) {
@@ -45,4 +46,23 @@ else if (horaDia >= 20 && horaDia <= 23) {
 else {
     mensaje = "Valor incorrecto";
 }
-console.log(mensaje);
+console.log(mensaje);*/
+
+//estructura switch (la sintaxis es igual a java)
+switch(mes){
+    case 1:case 2:case 12:
+        estacion = "verano";
+        break;
+    case 3:case 4:case 5:
+        estacion = "otoño";
+        break;
+    case 6:case 7:case 8:
+        estacion = "invierno";
+        break;
+    case 9:case 10:case 11:
+        estacion = "primavera";
+        break;
+    default:
+        estacion = "valor incorrecto";
+}
+console.log("Bienvenido a la estacion de:" + estacion);
