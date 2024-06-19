@@ -825,5 +825,117 @@ git merge segunda #y terminamos con esto
 
 <sub>Profesor Ariel Betancud </sub>
 
+<sub>CLASE 11 MIÉRCOLES 12 DE JUNIO DEL 2024 - Portafolio 5</sub>
+
+<sub>Resolución de conflictos al hacer merge parte 11</sub>
+
+<sub>Sección lectura</sub>
+
+<sub>Git nunca borra nada, a menos que nosotros se lo indiquemos. Cuando usamos los comandos git merge o git checkout estamos cambiando de rama o creando un nuevo commit, no borrando ramas ni commits (recuerda que puedes borrar commits con git reset y ramas con git branch -d).</sub>
+
+<sub>Git es muy inteligente y puede resolver algunos conflictos automáticamente: cambios, nuevas líneas, entre otros. Pero algunas veces no sabe cómo resolver estas diferencias, por ejemplo, cuando dos ramas diferentes hacen cambios distintos a una misma línea.</sub>
+<sub>Esto lo conocemos como conflicto y lo podemos resolver manualmente. Solo debemos hacer el merge, ir a nuestro editor de código y elegir si queremos quedarnos con alguna de estas dos versiones o algo diferente. Algunos editores de código como Visual Studio Code nos ayudan a resolver estos conflictos sin necesidad de borrar o escribir líneas de texto, basta con hacer clic en un botón y guardar el archivo.  </sub>
+
+<sub>Recuerda que siempre debemos crear un nuevo commit para aplicar los cambios del merge. Si Git puede resolver el conflicto, hará commit automáticamente. Pero, en caso de no pueda resolverlo, debemos solucionarlo y hacer el commit.</sub>
+
+<sub>Los archivos con conflictos por el comando git merge entran en un nuevo estado que conocemos como Unmerged. Funcionan muy parecido a los archivos en estado Unstaged, algo así como un estado intermedio entre Untracked y Unstaged. Solo debemos ejecutar git add para pasarlos al área de staging y git commit para aplicar los cambios en el repositorio.</sub>
+
+<sub>Cómo revertir un merge Si nos hemos equivocado y queremos cancelar el merge, debemos usar el siguiente comando:</sub>
+
+git merge --abort
+
+<sub>Conflictos en repositorios remotos Al trabajar con otras personas, es necesario utilizar un repositorio remoto.</sub>
+­
+<sub>-Para copiar el repositorio remoto al directorio de trabajo local, se utiliza el comando git clone , y para enviar cambios al repositorio remoto se utiliza git push.</sub>
+
+<sub>-Para actualizar el repositorio local se hace uso del comando git fetch, luego se debe fusionar los datos traídos con los locales usando git merge.</sub>
+
+<sub>Para traer los datos y fusionarlos a la vez, en un solo comando, se usa git pull.</sub>
+
+­<sub>- Para crear commits rápidamente, fusionando git add y git commit -m "", usamos git commit -am "".</sub>
+
+<sub>­- Para generar nuevas ramas, hay que posicionarse sobre la rama que se desea copiar y utilizar el comando git branch .</sub>
+
+<sub>Para saltar entre ramas, se usa el comando git checkout</sub>
+
+<sub>­- Una vez realizado los cambios en la rama, estas deben fusionarse con git merge.</sub>
+
+<sub>El merge ocurre en la rama en la que se está posicionado. Por lo tanto, la rama a fusionar se transforma en la principal.</sub>
+
+<sub>Los merges también son commits.</sub>
+
+<sub>Los merges pueden generar conflictos, esto aborta la acción y pide que soluciones el problema manualmente, aceptando o rechazando los cambios que vienen.<s/ub>
+
+<sub>Repasa qué es un branch</sub>
+
+
+<sub>Sección Práctica</sub>
+
+```sh
+
+git checkout segunda #falta lo que cargamos en master
+
+git merge master #traemos los cambios desde la master y tenemos las dos ramas actualizadas
+```
+
+<sub>Ahora vamos a crear un conflicto para ver como salimos de el, vamos a cargar datos nuevos creando archivos html y css estando en la rama segunda, y también vamos a hacer lo mismo estando en la master y veremos como lo solucionamos.</sub>
+
+
+<sub>Abrimos el html y modificamos estando en la rama segunda</sub>
+
+
+<sub>Luego commiteamos en la rama segunda y pasamos a la rama master, guardar y commitear, hacer un merge estando en master: pongo en orden los comandos abajo.</sub>
+
+```sh
+ctrl + s #Guardamos los cambios en la rama segunda, ponemos cambios en css
+
+git commit -am "Modifique el css y el color del texto" es un ejemplo
+
+git checkout master #Modificamos el html, ponemos código y css ponemos texto blue
+
+ctrl + s #Guardamos los cambios
+
+git commit -am "Agregue suscripción, cambie el código y puse todo azul en css"
+
+git merge segunda #Hacemos un merge estando en master y veremos el conflicto
+```
+
+<sub>Para solucionar el conflicto podemos abrir el archivo con el editor de texto y modificar lo que nos este señalando y guardamos, esto en el css y en el html, lo podemos hacer desde VSC seleccionando: el cambio entrante.</sub>
+
+
+<sub>Debemos ahora commitear estos cambios, abajo pongo los comandos.</sub>
+
+git status
+
+git commit -am "Solución de conflictos al mergear las ramas"
+
+git checkout segunda #Seguiremos con la versión anterior, porque el merge fue en master
+
+git merge master #Ahora pasamos los cambios a la rama segunda.
+
+
+<sub>PORTAFOLIO</sub>
+
+<sub>Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:</sub>
+
+<sub>Dante Nicolás Martinez</sub>
+
+<sub>Parte 4:</sub>
+
+<sub>Introducción</sub>
+
+
+<sub>Práctica</sub>
+
+
+<sub>PDF</sub>
+
+
+<sub>La tarea de hoy, agregar esta clase al README.md con el lenguaje de markdown, como lo hicimos en la clase pasada, luego deben hacer el commit correspondiente al cambio agregado.</sub>
+
+<sub>Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.</sub>
+
+<sub>Profesor Ariel Betancud</sub>
+
 
 
