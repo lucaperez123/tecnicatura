@@ -825,7 +825,7 @@ git merge segunda #y terminamos con esto
 
 <sub>Profesor Ariel Betancud </sub>
 
-<sub>CLASE 11 MIÉRCOLES 12 DE JUNIO DEL 2024 - Portafolio 5</sub>
+###### CLASE 11 MIÉRCOLES 12 DE JUNIO DEL 2024 - Portafolio 5
 
 <sub>Resolución de conflictos al hacer merge parte 11</sub>
 
@@ -929,6 +929,52 @@ git merge master #Ahora pasamos los cambios a la rama segunda.
 
 
 <sub>PDF</sub>
+
+
+<sub>La tarea de hoy, agregar esta clase al README.md con el lenguaje de markdown, como lo hicimos en la clase pasada, luego deben hacer el commit correspondiente al cambio agregado.</sub>
+
+<sub>Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.</sub>
+
+<sub>Profesor Ariel Betancud</sub>
+
+##### CLASE 12 MIÉRCOLES 19 DE JUNIO DEL 2024 - Portafolio 6
+
+<sub>Cómo funcionan las llaves públicas y privadas parte 12</sub>
+
+<sub>Sección lectura</sub>
+
+<sub>Las llaves públicas y privadas, conocidas también como cifrado asimétrico de un solo camino, sirven para mandar mensajes privados entre varios nodos con la lógica de que firmas tu mensaje con una llave pública vinculada con una llave privada que puede leer el mensaje.</sub>
+
+<sub>Las llaves públicas y privadas nos ayudan a cifrar y descifrar nuestros archivos de forma que los podamos compartir sin correr el riesgo de que sean interceptados por personas con malas intenciones.</sub>
+
+<sub>Cómo funciona un mensaje cifrado con llaves públicas y privadas Ambas personas deben crear su llave pública y privada.</sub>
+
+<sub>Ambas personas pueden compartir su llave pública a las otras partes (recuerda que esta llave es pública, no hay problema si la “interceptan”).</sub>
+
+<sub>La persona que quiere compartir un mensaje puede usar la llave pública de la otra persona para cifrar los archivos y asegurarse que solo puedan ser descifrados con la llave privada de la persona con la que queremos compartir el mensaje.</sub>
+
+<sub>El mensaje está cifrado y puede ser enviado a la otra persona sin problemas en caso de que los archivos sean interceptados.</sub>
+
+<sub>La persona a la que enviamos el mensaje cifrado puede emplear su llave privada para descifrar el mensaje y ver los archivos.</sub>
+
+<sub>Nota: puedes compartir tu llave pública, pero nunca tu llave privada.</sub>
+
+
+<sub>PORTAFOLIO</sub>
+
+<sub>Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:</sub>
+
+<sub>Dante Nicolás Martinez</sub>
+
+<sub>Parte 4:</sub>
+
+<sub>Introducción</sub>
+
+
+<sub>Práctica</sub>
+
+
+<sub>PDF
 
 
 <sub>La tarea de hoy, agregar esta clase al README.md con el lenguaje de markdown, como lo hicimos en la clase pasada, luego deben hacer el commit correspondiente al cambio agregado.</sub>
