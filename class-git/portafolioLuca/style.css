@@ -28,6 +28,26 @@ a{
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
 }
 
+.experiencia  , .estudios{
+    display : flex;
+    justify-content:center;
+    padding : 2rem;
+    color:azure;
+}
+
+
+.container-experiencia {
+    justify-content:center;
+    width: 100%;
+
+}
+
+main img{
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+}
+
 @media(max-width: 767px){
     .titulo{
         justify-content: center;
@@ -37,7 +57,7 @@ a{
         gap:1rem;
         align-items:center;
     }
-    .container-Nosotros{
+    .container-sobreMi{
         width:100%;
         padding:1;
         margin-top: 1rem;
@@ -66,5 +86,3 @@ a{
         margin: 0 3rem;
     }
 }
-
-
