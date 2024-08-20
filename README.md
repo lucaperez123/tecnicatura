@@ -1,10 +1,27 @@
-<h1>Tecnicatura Universitaria en programacion</h1>
-
-Mi nombre es Luca Perez , Alumno de la tecnicatura universitaria en programacion,tengo 20 años,
-actualmente capacitandome en las tecnologias actuales en el mercado laboral
-
--Html
--Css
--Python
--Java
--javaScript
+# Estadística
+## Ciencia de Datos
+## Estadística Descriptiva
+### Tipos de Estadística Descriptiva
+#### Distribución de frecuencias
+##### Frecuencia absoluta
+##### Frecuencia relativa
+##### Ejemplo: Frecuencia de fenómenos naturales
+#### Medidas de tendencia central
+##### Media
+##### Mediana
+##### Moda
+#### Medidas de variabilidad
+##### Desviación estándar
+##### Varianza
+##### Rango
+### Tablas y Gráficos
+#### Diagrama de barras
+#### Diagrama circular
+#### Histograma
+#### Polígono de frecuencias
+## Estadística Inferencial
+### Probabilidades
+### Distribuciones Discretas y Continuas
+### Análisis de Datos
+## Lenguaje R
+### Gráficos
